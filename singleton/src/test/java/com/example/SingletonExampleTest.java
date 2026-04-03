@@ -10,7 +10,7 @@ class SingletonTest {
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
         
-        assertSame(s1, s2);           // Same object reference
+        assertSame(s1, s2);
         assertNotNull(s1);
     }
 
